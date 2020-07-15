@@ -1,8 +1,8 @@
-const reverse = (str = String()) => {
+const reverse = (str) => {
     if(!str.length){
         return str
     }
     return reverse(str.substring(1)) + str.charAt(0)
 }
 
-console.log(reverse("BASIC"));
+console.log(reverse("RECONOCER"));
